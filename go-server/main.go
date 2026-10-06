@@ -28,4 +28,9 @@ func main()  {
 		fmt.Println(i)
 	}
 
+	// infiniteLoop
+	// for {
+	// 	fmt.Println("hello")
+	// }
+
 }
