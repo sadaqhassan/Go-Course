@@ -50,16 +50,33 @@ func main()  {
 	// Arrays
 
 
-	numbers := [6] int {1,3,4,5,2,5}
+	// numbers := [6] int {1,3,4,5,2,5}
 
 
-	for i:= 0 ; i <= len(numbers); i++{
-		fmt.Println("waa socotaa...")
-		if i == len(numbers) {
-			fmt.Println("waa dhamaty ")
-			return
-		}
+	// for i:= 0 ; i <= len(numbers); i++{
+	// 	fmt.Println("waa socotaa...")
+	// 	if i == len(numbers) {
+	// 		fmt.Println("waa dhamaty ")
+	// 		return
+	// 	}
+	// }
+
+	// structs
+
+	type User struct {
+		name string
+		email string
+		password string
+		isLogin bool
 	}
 
+	newUser := User{
+		name: "sadak",
+		email: "samo@gmail.com",
+		password: "s293",
+		isLogin: true,
+	} 
+
+	fmt.Println(newUser)
 
 }
