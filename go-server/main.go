@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	
+)
 
 //main function Go
 
@@ -24,13 +27,20 @@ func main()  {
 
 
 	//loops
-	for i:= 0 ; i < 10 ; i++ {
-		fmt.Println(i)
-	}
+	// for i:= 0 ; i < 10 ; i++ {
+	// 	fmt.Println(i)
+	// }
 
 	// infiniteLoop
 	// for {
 	// 	fmt.Println("hello")
 	// }
+
+	names := [] string{"sadak","ikhro","abdimalik","hooyoHaawo","aabo" ,"fadumo"};
+
+	for index , name := range names {
+		fmt.Println(index,name)
+	}
+
 
 }
