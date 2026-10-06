@@ -7,11 +7,17 @@ import (
 
 //main function Go
 
+func add(a int , b int) int {
+		return a + b
+	}
+
 func main()  {
+
+
 	// fmt.Println("hello world")
 
 	// //variables 
-	// var myname string = "sadak";
+	// var myname string = "";
 	// age := 20;
 	// fmt.Println(age); 
 	// fmt.Println(myname); 
@@ -37,11 +43,17 @@ func main()  {
 	// }
 
 	//range
-	names := [] string{"sadak","ikhro","abdimalik","hooyoHaawo","aabo" ,"fadumo"};
+	// names := [] string{};
 
-	for index , name := range names {
-		fmt.Println(index,name)
-	}
+	// for index , name := range names {
+	// 	fmt.Println(index,name)
+	// }
 
+
+	
+
+	result := add(12,2)
+
+	fmt.Println(result)
 
 }
