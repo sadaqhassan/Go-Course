@@ -36,6 +36,7 @@ func main()  {
 	// 	fmt.Println("hello")
 	// }
 
+	//range
 	names := [] string{"sadak","ikhro","abdimalik","hooyoHaawo","aabo" ,"fadumo"};
 
 	for index , name := range names {
