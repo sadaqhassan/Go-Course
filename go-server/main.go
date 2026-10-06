@@ -7,9 +7,7 @@ import (
 
 //main function Go
 
-func add(a int , b int) int {
-		return a + b
-	}
+
 
 func main()  {
 
@@ -49,11 +47,9 @@ func main()  {
 	// 	fmt.Println(index,name)
 	// }
 
+	// Arrays
 
-	
+	names := [2]string{"sadak","IQra"};
 
-	result := add(12,2)
-
-	fmt.Println(result)
-
+	fmt.Println(names)
 }
