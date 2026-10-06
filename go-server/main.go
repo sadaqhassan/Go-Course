@@ -63,20 +63,22 @@ func main()  {
 
 	// structs
 
-	type User struct {
-		name string
-		email string
-		password string
-		isLogin bool
-	}
+	// type User struct {
+	// 	name string
+	// 	email string
+	// 	password string
+	// 	isLogin bool
+	// }
 
-	newUser := User{
-		name: "sadak",
-		email: "samo@gmail.com",
-		password: "s293",
-		isLogin: true,
-	} 
+	// newUser := User{
+	// 	name: "sadak",
+	// 	email: "samo@gmail.com",
+	// 	password: "s293",
+	// 	isLogin: true,
+	// } 
 
-	fmt.Println(newUser)
-
+	
+	// fullInfo := []string{"my name is " + newUser.name + " my email is "+newUser.email}
+	
+	// fmt.Println(fullInfo)
 }
