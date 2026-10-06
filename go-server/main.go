@@ -49,7 +49,17 @@ func main()  {
 
 	// Arrays
 
-	names := [2]string{"sadak","IQra"};
 
-	fmt.Println(names)
+	numbers := [6] int {1,3,4,5,2,5}
+
+
+	for i:= 0 ; i <= len(numbers); i++{
+		fmt.Println("waa socotaa...")
+		if i == len(numbers) {
+			fmt.Println("waa dhamaty ")
+			return
+		}
+	}
+
+
 }
