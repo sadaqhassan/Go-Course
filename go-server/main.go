@@ -9,6 +9,7 @@ import (
 
 
 
+
 func main()  {
 
 
@@ -81,4 +82,15 @@ func main()  {
 	// fullInfo := []string{"my name is " + newUser.name + " my email is "+newUser.email}
 	
 	// fmt.Println(fullInfo)
+
+	//methods and pointers
+
+	number := 10
+
+	p := &number
+
+	fmt.Println(number)
+	fmt.Println(*p)
 }
+
+
